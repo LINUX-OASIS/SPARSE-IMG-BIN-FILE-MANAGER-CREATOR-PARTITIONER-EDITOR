@@ -101,15 +101,15 @@ The script requires several command-line tools to function. It will automaticall
 
 ## 💬 Contributing
 
-Pull requests, issues, and suggestions are warmly welcomed!
-See `CONTRIBUTING.md` for guidelines.
+Pull requests, issues, and suggestions are warmly welcomed!  
+See [`CONTRIBUTING.md`](https://github.com/LINUX-OASIS/SPARSE-IMG-BIN-FILE-MANAGER-CREATOR-PARTITIONER-EDITOR/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## 🌐 Links
 
-*   Issues
-*   Pull Requests
-*   Releases
-*   Wiki
+*   [Issues](https://github.com/LINUX-OASIS/SPARSE-IMG-BIN-FILE-MANAGER-CREATOR-PARTITIONER-EDITOR/issues)
+*   [Pull Requests](https://github.com/LINUX-OASIS/SPARSE-IMG-BIN-FILE-MANAGER-CREATOR-PARTITIONER-EDITOR/pulls)
+*   [Releases](https://github.com/LINUX-OASIS/SPARSE-IMG-BIN-FILE-MANAGER-CREATOR-PARTITIONER-EDITOR/releases)
+*   [Wiki](https://github.com/LINUX-OASIS/SPARSE-IMG-BIN-FILE-MANAGER-CREATOR-PARTITIONER-EDITOR/wiki)
 
 ## 🧙‍♂️ Maintainer
 
