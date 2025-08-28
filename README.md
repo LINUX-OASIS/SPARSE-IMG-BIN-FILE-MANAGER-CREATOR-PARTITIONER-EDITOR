@@ -12,9 +12,12 @@
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img src="https://forthebadge.com/images/badges/powered-by-linux.svg" />
   <img src="https://forthebadge.com/images/badges/works-with-ubuntu.svg" />
+  <img src="https://forthebadge.com/images/badges/requires-linux.svg" />
+  <img src="https://forthebadge.com/images/badges/uses-bash.svg" />
+  <img src="https://forthebadge.com/images/badges/still-works.svg" />
 </p>
 
-A powerful, all-in-one Bash script that provides a friendly `whiptail` menu-driven interface for managing `.img` and `.bin` disk images. Whether you're creating a giant sparse file for a VM, formatting a USB image, or partitioning a custom disk image, this tool simplifies complex command-line operations into a few easy steps.
+A powerful, all-in-one Bash script that provides a friendly `whiptail` menu-driven interface for managing `.img` and `.bin` disk images. Whether you're creating a giant sparse file for a VM, formatting it, editing partitions, or mounting/unmounting, this tool has you covered.
 
 It's designed to be intuitive, robust, and a little bit fun. 🥳
 
@@ -38,11 +41,11 @@ This script wraps powerful disk utilities into a simple, interactive TUI:
 A glimpse of the main menu you'll be working with:
 
 ```
-  ┌───────────────────────────────────────────────────────────────────────────┐
+  ┌───────────────────────────────────────────────────────────────��[...]
   │ ◉ SPARSE FILE ◉ MANAGER ◉ CREATOR ◉ EDITOR ◉                            │
-  ├───────────────────────────────────────────────────────────────────────────┤
+  ├───────────────────────────────────────────────────────────────��[...]
   │ Select Option                                                             │
-  │ ┌───────────────────────────────────────────────────────────────────────┐ │
+  │ ┌──────────────────────────────────────────────────────────────�[...]
   │ │1 [CREATE]🥞  🥞 CREATE custom SPARSE FILE                             │ │
   │ │2 [MAKE]🫙    🫙 MAKE AN EXISTING FILE SPARSE                           │ │
   │ │3 [FORMAT]🍱  🍱 FORMAT AN IMAGE FILE WITH A FILESYSTEM (.IMG/.BIN)    │ │
@@ -51,10 +54,10 @@ A glimpse of the main menu you'll be working with:
   │ │6 [PARTITIONS $PWD]🍣 🍣 CREATE / MODIFY / FORMAT PARTITIONS OF .IMG/. │ │
   │ │7 [PARTITIONS]🍣 🍣 (absolute PATH) CREATE / MODIFY / FORMAT PARTITION │ │
   │ │8 [UNMOUNT]🦞 🦞 UNMOUNT (.IMG/.BIN) FILE CORRECTLY                     │ │
-  │ └───────────────────────────────────────────────────────────────────────┘ │
-  ├───────────────────────────────────────────────────────────────────────────┤
+  │ └──────────────────────────────────────────────────────────────�[...]
+  ├───────────────────────────────────────────────────────────────��[...]
   │                      <Ok>                      <Cancel>                     │
-  └───────────────────────────────────────────────────────────────────────────┘
+  └───────────────────────────────────────────────────────────────��[...]
 ```
 
 ## 🐧 Compatibility
@@ -95,7 +98,7 @@ The script requires several command-line tools to function. It will automaticall
     ./custom-SPARSE-IMG-BIN-FILE-MANAGER-CREATOR-PARTITIONER-EDITOR.sh
     ```
 
-> **⚠️ Important:** The script requires root privileges for many operations (`losetup`, `mount`, `parted`, etc.) and will use `sudo`. You will be prompted for your password. Use with caution, as incorrect usage of disk management tools can lead to data loss.
+> **⚠️ Important:** The script requires root privileges for many operations (`losetup`, `mount`, `parted`, etc.) and will use `sudo`. You will be prompted for your password. Use with caution, especially when working with disk images and partitions.
 
 ---
 
@@ -124,7 +127,7 @@ Copyright (C) 2024 LINUX-OASIS
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
+ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
