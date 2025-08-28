@@ -10,11 +10,6 @@
 
 <p align="center">
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-  <img src="https://forthebadge.com/images/badges/powered-by-linux.svg" />
-  <img src="https://forthebadge.com/images/badges/works-with-ubuntu.svg" />
-  <img src="https://forthebadge.com/images/badges/requires-linux.svg" />
-  <img src="https://forthebadge.com/images/badges/uses-bash.svg" />
-  <img src="https://forthebadge.com/images/badges/still-works.svg" />
 </p>
 
 A powerful, all-in-one Bash script that provides a friendly `whiptail` menu-driven interface for managing `.img` and `.bin` disk images. Whether you're creating a giant sparse file for a VM, formatting it, editing partitions, or mounting/unmounting, this tool has you covered.
